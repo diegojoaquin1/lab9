@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout de Blog con Grid + Flex</title>
+    <link rel="stylesheet" href="styles/gridflex.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Blog Personal</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Artículos</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="index.html">Volver al índice</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section class="articles">
+            <article>
+                <h2>Artículo 1: Introducción a CSS Grid</h2>
+                <p>CSS Grid Layout es un sistema de diseño bidimensional que permite organizar los elementos en filas y columnas. A diferencia de Flexbox, Grid está pensado para manejar ambas dimensiones al mismo tiempo.</p>
+                <p>Con Grid podemos crear layouts complejos de manera más sencilla y con menos código.</p>
+            </article>
+            <article>
+                <h2>Artículo 2: Flexbox para componentes</h2>
+                <p>Flexbox es ideal para diseños unidimensionales, ya sea en fila o columna. Es perfecto para componentes como menús de navegación, tarjetas o cualquier elemento que necesite alineación en una sola dirección.</p>
+                <p>La combinación de Grid para el layout general y Flexbox para los componentes internos es una práctica muy común.</p>
+            </article>
+            <article>
+                <h2>Artículo 3: Modelo de Cajas en CSS</h2>
+                <p>El modelo de cajas es fundamental en CSS. Cada elemento HTML se representa como una caja rectangular compuesta por contenido, padding, border y margin.</p>
+                <p>La propiedad box-sizing nos permite controlar cómo se calculan las dimensiones de estas cajas.</p>
+            </article>
+        </section>
+        
+        <aside>
+            <h3>Sidebar</h3>
+            <div class="sidebar-item">
+                <h4>Categorías</h4>
+                <ul>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">Diseño Web</a></li>
+                </ul>
+            </div>
+            <div class="sidebar-item">
+                <h4>Archivo</h4>
+                <ul>
+                    <li><a href="#">Enero 2025</a></li>
+                    <li><a href="#">Febrero 2025</a></li>
+                    <li><a href="#">Marzo 2025</a></li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+    
+    <footer>
+        <p>Autor: Diego Joaquin Cahuana Vera</p>
+        
+    </footer>
+</body>
+</html>
